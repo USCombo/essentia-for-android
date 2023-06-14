@@ -1,0 +1,99 @@
+    1  df -h
+    2  free -m
+    3  ip a
+    4  cd /etc/ssh/sshd_config
+    5  sudo nano /etc/ssh/sshd_config
+    6  systemctl restart openssh
+    7  sudo systemctl restart openssh
+    8  sudo reboot
+    9  cd /etc/cloud/
+   10  ls
+   11  sudo apt update
+   12  sudo apt install build-essential manpages-dev
+   13  mkdir development
+   14  cd development/
+   15  sudo nano build_essentia_android.sh
+   16  chmod +x build_essentia_android.sh
+   17  sudo chmod +x build_essentia_android.sh
+   18  ./build_essentia_android.sh 
+   19  sudo nano build_essentia_android.sh
+   20  ./build_essentia_android.sh 
+   21  sudo ln -s /usr/bin/python3 /usr/bin/python
+   22  python
+   23  clear
+   24  sudo nano build_essentia_android.sh
+   25  ./build_essentia_android.sh 
+   26  sudo nano build_essentia_android_cmake.sh
+   27  sudo chmod +x build_essentia_android_cmake.sh 
+   28  ./build_essentia_android_cmake.sh 
+   29  ls
+   30  cd essentia/
+   31  ./waf configure --cross-compile-android --lightweight= --fft=KISS --prefix=/Users/carthach/Dev/android/modules/essentia
+   32  export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin
+   33  ./waf configure --cross-compile-android --lightweight= --fft=KISS --prefix=/Users/carthach/Dev/android/modules/essentia
+   34  ndk-tool
+   35  ndk-build
+   36  nano ~/.bashrc
+   37  source ~/.bashrc
+   38  ndk-build
+   39  clang
+   40  ls $ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin
+   41  export PATH=$PATH:$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin
+   42  clang
+   43  ./waf configure --cross-compile-android --lightweight= --fft=KISS --prefix=/Users/carthach/Dev/android/modules/essentia
+   44  sudo apt-get update
+   45  sudo apt-get install libeigen3-dev
+   46  ./waf configure --cross-compile-android --lightweight= --fft=KISS --prefix=/Users/carthach/Dev/android/modules/essentia
+   47  ./waf
+   48  ./waf install
+   49  cd ..
+   50  mkdir -p ~/development/include
+   51  cd essentia/
+   52  find ./src -name "*.h" -exec cp --parents \{} ~/development/include/ \;
+   53  cd ..
+   54  cd include/
+   55  ls
+   56  cd src/
+   57  ls
+   58  cd essentia/
+   59  ls
+   60  cd ..
+   61  cd essentia/
+   62  cd build/
+   63  ls
+   64  cd src/
+   65  ls
+   66  cd essentia/
+   67  ls
+   68  cd ..
+   69  ls
+   70  file libessentia.so
+   71  cd ..
+   72  ls
+   73  git clone [200~https://github.com/USCombo/essentia-for-android.git~
+   74  git clone https://github.com/USCombo/essentia-for-android.git~
+   75  git clone https://github.com/USCombo/essentia-for-android.git
+   76  cd essentia-for-android/
+   77  ls
+   78  cd ..
+   79  cp -r /development/essentia/* /development/essentia-for-android/
+   80  cp -r essentia/* essentia-for-android/
+   81  cd essentia-for-android/
+   82  ls
+   83  cd ..
+   84  cp -r include/ essentia-for-android/
+   85  cd essentia
+   86  cd ..
+   87  cd essentia-for-android/
+   88  ls
+   89  git branch
+   90  git remote -v 
+   91  git add .
+   92  git commit -m "Compiled Essentia project for android. All files are present in [build] & [include] directories. I have extracted header files as well."
+   93  git config --global user.email "ms.sherazi@gcu.edu.pk"
+   94  git config --global user.name "USCombo"
+   95  git commit -m "Compiled Essentia project for android. All files are present in [build] & [include] directories. I have extracted header files as well."
+   96  git push
+   97  cd
+   98  history
+   99  history > command_history.txt
