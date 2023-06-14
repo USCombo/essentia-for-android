@@ -1,0 +1,2 @@
+# essentia-for-android
+Compiled
